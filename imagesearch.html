@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        
+    <style>
+        .Google {
+            width: 50%;
+            margin: auto;
+            margin-top: 10%;
+            text-align: center;
+        }
+        .blue {
+            color: blue;
+            font-size: 82px;
+        }
+        .red {
+            color: red;
+            font-size: 82px;
+        }
+        .green {
+            color: green;
+            font-size: 82px;
+        }
+        .yellow {
+            color: yellow;
+            font-size: 82px;
+        }
+        #roundcorner {
+            border-radius: 40px;
+            width: 500px;
+            height: 40px;
+            margin-top: 20px;
+            border-color: lightgrey;
+            border-style: solid;
+            border-width: 1px;
+            padding-left: 25px;
+            font-size: 18px;
+            outline: none;
+        }
+        #roundcorner:hover {
+            border-color: gray;
+            border-width: 2px;
+            
+        }
+
+        #button {
+            margin-top: 10px;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            border-style: solid;
+            border-color: whitesmoke;
+            background-color: whitesmoke;
+            border-radius: 1px;
+        }
+        .newpage {
+                font-size: 14px;
+                color: black;
+                margin-left: 80%; 
+            }
+    </style>
+    </head>
+    <body>
+        <div class="newpage">
+            <a href="search.html" style="color: black; text-decoration: none;">Search</a>
+            <a href="advanced.html" style="color: black; text-decoration: none; padding-left: 10px;">Advanced</a>
+            
+        </div>
+        <div class="Google">
+            <span class="blue">G</span>
+            <span class="red">o</span>
+            <span class="yellow">o</span>
+            <span class="blue">g</span>
+            <span class="green">l</span>
+            <span class="red">e</span>    
+            <div style="color: blue; width: 127%;">
+                Images
+            </div>
+            <form action="http://images.google.com/images?um=1&hl=en&safe=active&nfpr=1&q=your_search_query">
+                <input type="text" name="q" id="roundcorner">
+                <br>
+                <input type="submit" id="button" value="Google Search">
+            </form>
+            
+        </div>
+      
+    </body>
+</html>

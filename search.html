@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .Google {
+            width: 50%;
+            margin: auto;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .blue {
+            color: blue;
+            font-size: 82px;
+        }
+
+        .red {
+            color: red;
+            font-size: 82px;
+        }
+
+        .green {
+            color: green;
+            font-size: 82px;
+        }
+
+        .yellow {
+            color: yellow;
+            font-size: 82px;
+        }
+
+        #roundcorner {
+            border-radius: 40px;
+            width: 500px;
+            height: 40px;
+            margin-top: 20px;
+            border-color: lightgrey;
+            border-style: solid;
+            border-width: 1px;
+            padding-left: 25px;
+            font-size: 18px;
+            outline: none;
+        }
+
+        #roundcorner:hover {
+            border-color: gray;
+            border-width: 2px;
+
+        }
+
+        #button {
+            margin: 5px;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            border-style: solid;
+            border-color: whitesmoke;
+            background-color: whitesmoke;
+            border-radius: 1px;
+
+        }
+
+        .newpage {
+            font-size: 14px;
+            color: black;
+            margin-left: 80%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="newpage">
+        <a href="imagesearch.html" style="color: black; text-decoration: none;">Images</a>
+        <a href="advanced.html" style="color: black; text-decoration: none; padding-left: 10px;">Advanced</a>
+
+    </div>
+    <div class="d-flex flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-center">
+
+                <span class="blue">G</span>
+                <span class="red">o</span>
+                <span class="yellow">o</span>
+                <span class="blue">g</span>
+                <span class="green">l</span>
+                <span class="red">e</span>
+            </div>
+        </div>
+
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-center">
+                <form action="https://google.com/search">
+                    <input type="text" name="q" id="roundcorner">
+
+            </div>
+        </div>
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-center">
+                <input type="submit" value="Google Search" id="button">
+                </form>
+                <form action="https://google.com/doodles">
+                    <input type="submit" value="I'm Feeling Lucky" id="button">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
